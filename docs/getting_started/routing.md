@@ -259,4 +259,7 @@ redirect_to Features.show("photo_id", "feature_id")
 ## Inspecting routes
 
 To get a complete list of the available routes in your application
-execute the `./app --routes` command in your terminal.
+
+```crystal
+ActionController::Server.print_routes
+```
