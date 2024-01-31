@@ -10,7 +10,7 @@ Add the dependency to your `shard.yml`:
 dependencies:
   action-controller:
     github: spider-gazelle/action-controller
-    version: ~> 5.6
+    version: ~> 7.3
 ```
 
 Run `shards install`.
