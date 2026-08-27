@@ -33,6 +33,15 @@ extra_css:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        getting_started/routing.md: guides/routing.md
+        getting_started/sessions.md: guides/sessions.md
+        getting_started/spec.md: guides/testing.md
+        configuration/README.md: building/README.md
+        configuration/logging.md: building/logging.md
+        configuration/command_line.md: building/command_line.md
+        deployment/README.md: building/deployment.md
   - gen-files:
       scripts:
         - gen_doc_stubs.py

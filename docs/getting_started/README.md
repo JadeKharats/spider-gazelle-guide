@@ -51,7 +51,7 @@ AC::Server.new.run
 ```
 
 Routing is handled via [LuckyRouter](https://github.com/luckyframework/lucky_router) for insanely fast route matching.
-See the routing [documentation](./routing.md) for more information.
+See the routing [documentation](../guides/routing.md) for more information.
 
 Controllers are simply classes and routes are simply methods. Controllers and actions can be documented/tested as you would any Crystal class/method.
 
